@@ -33,6 +33,10 @@
 	background-color: #ffffff;
 	margin-bottom: 30px;
 }
+.chat__receiver {
+	margin-left: auto;
+	background-color: #dcf8c6;
+}
 
 .chat__name {
 	position: absolute;
@@ -63,4 +67,12 @@
 	padding: 10px;
 	border: none;
 	outline: none;
+}
+.chat__footer > form > button {
+	display: none;
+}
+
+.chat__footer > .MuiSvgIcon-root {
+	padding: 10px;
+	color: gray;
 }
